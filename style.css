@@ -1,0 +1,33 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+#chatContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+#chatBox {
+  border: 1px solid #ccc;
+  padding: 10px;
+  height: 80%;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+
+#chatInput {
+  padding: 10px;
+  margin-right: 5px;
+  width: calc(100% - 85px);
+  border: 1px solid #ccc;
+}
+
+#sendBtn {
+  padding: 10px;
+  width: 75px;
+}
